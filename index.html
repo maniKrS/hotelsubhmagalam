@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hotel Subhmangalam</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css">
+
+</head>
+
+<body>
+  <header class="text-gray-400 bg-gray-900 body-font" style="background-color: white;">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <img src="images/3.png" class="w-10 h-10 rounded-full">
+        <span class="ml-3 text-xl" style="color: black;">Hotel Subhmangalam : : </span>
+      </a>
+      <p id='text' style="color:black"></p>
+
+      <nav class="navbar md:ml-auto md:py-1 md:pr-4 md:border-r md:border-white-700 flex flex-wrap items-center text-base justify-center"
+        id='l'>
+        <a href="index.html" class="text-black" style="color:black">Home</a>
+        <a href="about.html" class="text-white" style="color:black">About</a>
+        <a href="services.html" class="text-white" style="color:black">Services</a>
+        <a href="contact.html" class="text-white" style="color:black">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+  <hr />
+  <section class="text-gray-400 bg-gray-900 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+          Welcome to Hotel Subhmangalam
+        </h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+          Embrace luxury and tranquility in our exquisite retreat. Experience a blend
+          of impeccable service and mesmerizing ambiance that will make your stay
+          unforgettable.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <!-- Non-AC category -->
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="images/1.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-white title-font text-lg font-medium">NON - AC</h2>
+            <p class="mt-1">500₹</p>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg book-button"
+              data-category="Non-AC">Book Now</button>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="images/2.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-white title-font text-lg font-medium">AC</h2>
+            <p class="mt-1">800₹</p>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg book-button"
+              data-category="Non-AC">Book Now</button>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <div class="scrolling-container">
+              <img alt="Birthday" class="scrolling-images" src="images/birth.png" id="scrolling-images">
+              </div>
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-white title-font text-lg font-medium">Birthday</h2>
+            <p class="mt-1" id="price">3000₹</p>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg book-button"
+              data-category="Non-AC">Book Now</button>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="images/anni.png" id="anni">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-white title-font text-lg font-medium">Anniversary</h2>
+            <p class="mt-1" id="anniP">3000₹</p>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg book-button"
+              data-category="Non-AC">Book Now</button>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="images/reception.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-white title-font text-lg font-medium">Reception</h2>
+            <p class="mt-1">150000₹</p>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg book-button"
+              data-category="Non-AC">Book Now</button>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="images/wedding.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-white title-font text-lg font-medium">Wedding</h2>
+            <p class="mt-1">15000₹</p>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg book-button"
+              data-category="Non-AC">Book Now</button>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="images/1.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-white title-font text-lg font-medium"> Standard NON - AC</h2>
+            <p class="mt-1">700₹</p>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg book-button"
+              data-category="Non-AC">Book Now</button>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="images/1.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+            <h2 class="text-white title-font text-lg font-medium">Standard AC</h2>
+            <p class="mt-1">1000₹</p>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg book-button"
+              data-category="Non-AC">Book Now</button>
+          </div>
+        </div>
+
+        <!-- AC category -->
+        <!-- Similar structure for other categories -->
+        <!-- ... -->
+
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
+      <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
+        <h2 class="text-xs text-indigo-400 tracking-widest font-medium title-font mb-1">if you want book</h2>
+        <h1 class="md:text-3xl text-2xl font-medium title-font text-white">go contact </h1>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const categoryNames = ['Non-AC', 'AC', 'Wedding', 'Birthday', 'Reception', 'Anniversary', 'Neptune', 'The 400 Blows'];
+
+      function handleBookButtonClick(event) {
+        const category = event.target.dataset.category;
+
+        if (categoryNames.includes(category)) {
+          alert(`Booking ${category} category`);
+          window.location.href = 'contact.html';
+          // You can add further logic to handle the booking process
+        }
+      }
+
+      const bookButtons = document.querySelectorAll('.book-button');
+      bookButtons.forEach(button => {
+        button.addEventListener('click', handleBookButtonClick);
+      });
+    });
+  </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var texts = ['Birthday 🎂','Anniversary💍','Non -Ac','wedding','Ac'];
+        var images = ['images/birth.png', 'images/birth2.png', 'images/birth3.png', 'images/birth4.png'];
+        var price = ['3000','3500','4000','2500']
+        var anniChange= ['images/anni.png','images/anni2.png']
+        var currentImage = 0;
+        var index = 0;
+        var changingText = document.getElementById("text");
+        var changeImage = document.getElementById('scrolling-images');
+        var changeprices = document.getElementById('price')
+        
+        function changeImages() {
+          changeImage.src = images[currentImage];
+          currentImage = (currentImage + 1) % images.length;
+        }
+    
+        function changeText() {
+          changingText.innerHTML = texts[index];
+          index = (index + 1) % texts.length;
+        }
+        function changePrice(){
+          changeprices.innerHTML = price[index]
+          index = (index+1)%price.length
+        }
+    
+        setInterval(changeText, 1000);
+        setInterval(changeImages, 1500);
+        setInterval(changePrice,1500)
+      });
+    </script>
+    
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
